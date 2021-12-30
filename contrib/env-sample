@@ -1,0 +1,5 @@
+SECRET_KEY=chave
+DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+AWS_ACCESS_KEY_ID=
