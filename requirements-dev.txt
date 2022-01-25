@@ -53,6 +53,9 @@ importlib-metadata==4.10.0 \
     # via
     #   -r requirements.txt
     #   markdown
+jsonpath==0.82 \
+    --hash=sha256:46d3fd2016cd5b842283d547877a02c418a0fe9aa7a6b0ae344115a2c990fef4
+    # via -r requirements.txt
 markdown==3.3.6 \
     --hash=sha256:76df8ae32294ec39dcf89340382882dfa12975f87f45c3ed1ecdb1e8cefc7006 \
     --hash=sha256:9923332318f843411e9932237530df53162e29dc7a4e2b91e35764583c46c9a3
