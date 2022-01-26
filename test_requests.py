@@ -45,8 +45,9 @@ import requests
 # print(avaliacao.json())
 
 # GET Cursos
+from decouple import config
 
-headers = {'Authorization': 'Token af58023c8804a7eceaeb8bb88e0290c1517204d4'}
+headers = {'Authorization': config('TOKEN')}
 
 cursos = requests.get(url='http://127.0.0.1:8000/api/v2/cursos/', headers=headers)
 
